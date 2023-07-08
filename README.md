@@ -1,5 +1,5 @@
-# dev-dragon
-A Starter Project for development of WordPress Site Themes based on Foundation CSS by Zurb Foundation
+# argon
+A Starter Project for development of WordPress Site Themes based on Foundation CSS by Zurb Foundation. Compiled by CodeKit. It is a derivative of the dev-dragon template.
 
 ### Please remember to;
 - run npm install for node packages
