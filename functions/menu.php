@@ -1,5 +1,20 @@
 <?php
 
+// Register Menu in Admin Dashboard
+add_theme_support('menus');
+
+// Menus and their Locations
+register_nav_menus(
+
+    array(
+        'main-menu' => 'Main Menu',
+        'off-canvas-menu' => 'Off-Canvas Menu',
+        'footer-menu' => 'Footer Menu',
+
+    )
+);
+
+
 // main nav walker class
 class nav_walker extends Walker_Nav_menu {
 
