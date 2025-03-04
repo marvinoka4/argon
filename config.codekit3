@@ -7,7 +7,7 @@
       "uuidString" : "F5DAB568-1969-4476-B67F-E023B43D0E4B"
     }
   ],
-  "creatorBuild" : "34510",
+  "creatorBuild" : "34680",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -155,54 +155,6 @@
       "oAP" : "\/assets\/fonts\/gform-icons-theme.woff2",
       "oF" : 0
     },
-    "\/assets\/fonts\/gilroybold-webfont.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/gilroybold-webfont.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/gilroybold-webfont.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/gilroybold-webfont.woff2",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/gilroymedium-webfont.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/gilroymedium-webfont.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/gilroymedium-webfont.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/gilroymedium-webfont.woff2",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/gilroyregular-webfont.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/gilroyregular-webfont.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/gilroyregular-webfont.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/gilroyregular-webfont.woff2",
-      "oF" : 0
-    },
     "\/assets\/fonts\/glyphicons-halflings-regular.eot" : {
       "cB" : 0,
       "ft" : 8192,
@@ -245,6 +197,70 @@
       "oAP" : "\/assets\/fonts\/glyphicons-halflings-regular.woff2",
       "oF" : 0
     },
+    "\/assets\/fonts\/KindSans-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Bold.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Bold.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Medium.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Medium.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Regular.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Regular.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Semibold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Semibold.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Semibold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Semibold.woff2",
+      "oF" : 0
+    },
     "\/assets\/fonts\/lg.eot" : {
       "cB" : 0,
       "ft" : 8192,
@@ -285,6 +301,70 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/fonts\/lg.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Munika-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Munika-Bold.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Munika-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Munika-Bold.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Munika-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Munika-Medium.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Munika-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Munika-Medium.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Munika-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Munika-Regular.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Munika-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Munika-Regular.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Munika-Semibold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Munika-Semibold.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Munika-Semibold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Munika-Semibold.woff2",
       "oF" : 0
     },
     "\/assets\/fonts\/unicons\/selection.json" : {
@@ -8181,11 +8261,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/images\/favicon\/android-chrome-192x192.png" : {
+    "\/assets\/images\/favicon_io\/android-chrome-192x192.png" : {
       "ft" : 32768,
-      "iS" : 11079,
+      "iS" : 11557,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/android-chrome-192x192.png",
+      "oAP" : "\/assets\/images\/favicon_io\/android-chrome-192x192.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8194,11 +8274,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/images\/favicon\/android-chrome-512x512.png" : {
+    "\/assets\/images\/favicon_io\/android-chrome-512x512.png" : {
       "ft" : 32768,
-      "iS" : 45686,
+      "iS" : 35262,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/android-chrome-512x512.png",
+      "oAP" : "\/assets\/images\/favicon_io\/android-chrome-512x512.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8207,11 +8287,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/images\/favicon\/apple-touch-icon.png" : {
+    "\/assets\/images\/favicon_io\/apple-touch-icon.png" : {
       "ft" : 32768,
-      "iS" : 9870,
+      "iS" : 10436,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/apple-touch-icon.png",
+      "oAP" : "\/assets\/images\/favicon_io\/apple-touch-icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8220,54 +8300,46 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/images\/favicon\/browserconfig.xml" : {
+    "\/assets\/images\/favicon_io\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 680,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicon_io\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicon_io\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 1376,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicon_io\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicon_io\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/browserconfig.xml",
+      "oAP" : "\/assets\/images\/favicon_io\/favicon.ico",
       "oF" : 0
     },
-    "\/assets\/images\/favicon\/favicon-16x16.png" : {
-      "ft" : 32768,
-      "iS" : 400,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/favicon-16x16.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/images\/favicon\/favicon-32x32.png" : {
-      "ft" : 32768,
-      "iS" : 894,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/favicon-32x32.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/images\/favicon\/favicon.ico" : {
+    "\/assets\/images\/favicon_io\/site.webmanifest" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/favicon.ico",
-      "oF" : 0
-    },
-    "\/assets\/images\/favicon\/site.webmanifest" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon\/site.webmanifest",
+      "oAP" : "\/assets\/images\/favicon_io\/site.webmanifest",
       "oF" : 0
     },
     "\/assets\/images\/google-reviews.svg" : {
@@ -8279,6 +8351,819 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic5.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic5.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic6.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic6.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic7.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic7.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic8.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic8.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic9.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic9.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/scroll\/ic10.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/scroll\/ic10.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/shape\/ab1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/shape\/ab1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/shape\/ab2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/shape\/ab2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/shape\/ab3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/shape\/ab3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/shape\/cir-arrow.png" : {
+      "ft" : 32768,
+      "iS" : 6119,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/cir-arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/cti-1.png" : {
+      "ft" : 32768,
+      "iS" : 3030,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/cti-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/cti-2.png" : {
+      "ft" : 32768,
+      "iS" : 3142,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/cti-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/cti-3.png" : {
+      "ft" : 32768,
+      "iS" : 1464,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/cti-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/cti-4.png" : {
+      "ft" : 32768,
+      "iS" : 3719,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/cti-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/cti-5.png" : {
+      "ft" : 32768,
+      "iS" : 2894,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/cti-5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/fot-sh1.png" : {
+      "ft" : 32768,
+      "iS" : 5142,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/fot-sh1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/fot-sh2.png" : {
+      "ft" : 32768,
+      "iS" : 5993,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/fot-sh2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ft-icon1.png" : {
+      "ft" : 32768,
+      "iS" : 2540,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ft-icon1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ft-icon2.png" : {
+      "ft" : 32768,
+      "iS" : 2257,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ft-icon2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ft-icon3.png" : {
+      "ft" : 32768,
+      "iS" : 2599,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ft-icon3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ft-man.png" : {
+      "ft" : 32768,
+      "iS" : 76872,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ft-man.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ft-man2.png" : {
+      "ft" : 32768,
+      "iS" : 76032,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ft-man2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/hand-sh.png" : {
+      "ft" : 32768,
+      "iS" : 9925,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/hand-sh.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/l-icon1.png" : {
+      "ft" : 32768,
+      "iS" : 2987,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/l-icon1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/l-icon2.png" : {
+      "ft" : 32768,
+      "iS" : 6401,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/l-icon2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/l-icon3.png" : {
+      "ft" : 32768,
+      "iS" : 6477,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/l-icon3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/l-icon4.png" : {
+      "ft" : 32768,
+      "iS" : 4008,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/l-icon4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/l-progress.png" : {
+      "ft" : 32768,
+      "iS" : 10570,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/l-progress.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/limit-circle.png" : {
+      "ft" : 32768,
+      "iS" : 9515,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/limit-circle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-arrow.png" : {
+      "ft" : 32768,
+      "iS" : 2204,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-ic1.png" : {
+      "ft" : 32768,
+      "iS" : 7633,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-ic1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-ic2.png" : {
+      "ft" : 32768,
+      "iS" : 5137,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-ic2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-ic3.png" : {
+      "ft" : 32768,
+      "iS" : 5352,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-ic3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-icon1.png" : {
+      "ft" : 32768,
+      "iS" : 5767,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-icon1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-icon2.png" : {
+      "ft" : 32768,
+      "iS" : 6095,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-icon2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-icon3.png" : {
+      "ft" : 32768,
+      "iS" : 4804,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-icon3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-img.png" : {
+      "ft" : 32768,
+      "iS" : 19901,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-img.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/ser-side.png" : {
+      "ft" : 32768,
+      "iS" : 13042,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/ser-side.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/side-sh.png" : {
+      "ft" : 32768,
+      "iS" : 2272,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/side-sh.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/side-sh1.png" : {
+      "ft" : 32768,
+      "iS" : 59298,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/side-sh1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/side-sh2.png" : {
+      "ft" : 32768,
+      "iS" : 55772,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/side-sh2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/t-icon1.png" : {
+      "ft" : 32768,
+      "iS" : 629,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/t-icon1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/t-icon2.png" : {
+      "ft" : 32768,
+      "iS" : 512,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/t-icon2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/t-icon3.png" : {
+      "ft" : 32768,
+      "iS" : 706,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/t-icon3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/tag.png" : {
+      "ft" : 32768,
+      "iS" : 3720,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/tag.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/test-sh.png" : {
+      "ft" : 32768,
+      "iS" : 1663,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/test-sh.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/title-sh.png" : {
+      "ft" : 32768,
+      "iS" : 1072,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/title-sh.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/title-sh1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/shape\/title-sh1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/shape\/title-sh2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/shape\/title-sh2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/shape\/tst-men.png" : {
+      "ft" : 32768,
+      "iS" : 406838,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/tst-men.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/tst-sh2.png" : {
+      "ft" : 32768,
+      "iS" : 11845,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/tst-sh2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/tst-sh3.png" : {
+      "ft" : 32768,
+      "iS" : 886,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/tst-sh3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/txt-1.png" : {
+      "ft" : 32768,
+      "iS" : 165,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/txt-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/txt-2.png" : {
+      "ft" : 32768,
+      "iS" : 394,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/txt-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/txt-3.png" : {
+      "ft" : 32768,
+      "iS" : 786,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/txt-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/txt-4.png" : {
+      "ft" : 32768,
+      "iS" : 2571,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/txt-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/txt-5.png" : {
+      "ft" : 32768,
+      "iS" : 1564,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/txt-5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/type-sh.png" : {
+      "ft" : 32768,
+      "iS" : 5848,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/type-sh.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/shape\/v-more.png" : {
+      "ft" : 32768,
+      "iS" : 470,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/shape\/v-more.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/about-hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 61760,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/about-hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/hero-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 163250,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/hero-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 419577,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/images\/util\/blank.gif" : {
       "ft" : 4194304,
@@ -8346,6 +9231,26 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/images\/util\/site_logo_white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/util\/site_logo_white.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/util\/site_logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/util\/site_logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/images\/util\/star.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -8361,6 +9266,26 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/assets\/images\/util\/tick.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/util\/vector-9.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/util\/vector-9.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/images\/util\/vector-10.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/images\/util\/vector-10.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -8478,271 +9403,248 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/styles\/css\/app.css",
       "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/global\/_helperLayout.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/global\/_helperLayout.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/global\/_helperType.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/global\/_helperType.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/global\/_settings.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/global\/_settings.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/global\/_theme.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/global\/_theme.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_footer.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_header.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/layout\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_hero.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/layout\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_navigation.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/layout\/_sidebar.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_sidebar.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/modules\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_forms.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/modules\/_hamburger-settings.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_hamburger-settings.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/modules\/_icons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_icons.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/modules\/_lg-theme.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_lg-theme.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/modules\/_lightgallery.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_lightgallery.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/modules\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_mixins.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/modules\/_motion.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_motion.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/assets\/styles\/scss\/modules\/_scroll-cue.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_scroll-cue.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
+    },
+    "\/assets\/styles\/scss\/modules\/_swiper.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/styles\/scss\/modules\/_swiper.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0
     },
     "\/comments.php" : {
       "cB" : 0,
@@ -9086,6 +9988,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/page-templates\/about.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-templates\/about.php",
+      "oF" : 0
+    },
     "\/page-templates\/demo.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -9108,6 +10018,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/page.php",
+      "oF" : 0
+    },
+    "\/parts\/content\/about-intro.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/about-intro.php",
       "oF" : 0
     },
     "\/parts\/content\/contact-form.php" : {
@@ -9150,6 +10068,14 @@
       "oAP" : "\/parts\/content\/demo-section1-content.php",
       "oF" : 0
     },
+    "\/parts\/content\/feature-scroll.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/feature-scroll.php",
+      "oF" : 0
+    },
     "\/parts\/content\/get-in-touch.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -9174,6 +10100,14 @@
       "oAP" : "\/parts\/content\/summary-practice-areas.php",
       "oF" : 0
     },
+    "\/parts\/content\/testimonial-scroll.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/testimonial-scroll.php",
+      "oF" : 0
+    },
     "\/parts\/header\/home-page-header.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -9188,6 +10122,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/header\/page-header.php",
+      "oF" : 0
+    },
+    "\/parts\/header\/page-hero.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/header\/page-hero.php",
       "oF" : 0
     },
     "\/parts\/loop\/loop-page.php" : {
@@ -9307,9 +10249,9 @@
   },
   "projectAttributes" : {
     "creationDate" : 576149231.35316896,
-    "displayValue" : "ARGON",
+    "displayValue" : "AKM",
     "displayValueWasSetByUser" : 1,
-    "iconImageName" : "\/assets\/images\/favicon\/apple-touch-icon.png",
+    "iconImageName" : "\/assets\/images\/favicon_io\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -9810,10 +10752,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -9865,10 +10803,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -10011,7 +10945,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -10096,7 +11031,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -10136,9 +11072,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -10150,6 +11083,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -10204,9 +11140,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
@@ -10467,7 +11400,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -10758,11 +11692,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -10877,6 +11809,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -10897,6 +11830,7 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,

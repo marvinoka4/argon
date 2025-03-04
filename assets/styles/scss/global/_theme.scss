@@ -32,7 +32,7 @@
     text-align: center;
     line-height: 2.3rem;
     font-size: 1.2rem;
-    color: get-color(primary);
+    color: get-color(secondary);
     left: 0;
     top: 0;
     height: 2.3rem;
@@ -46,7 +46,7 @@
     fill: none;
   }
   svg.progress-circle path {
-    stroke: get-color(primary);
+    stroke: get-color(secondary);
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear;
