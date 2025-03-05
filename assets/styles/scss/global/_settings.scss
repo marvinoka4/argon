@@ -105,7 +105,6 @@ $prototype-sizes: (
         100: 100%
 );
 
-
 $breakpoints: (
         small: 0,
         medium: 640px,
@@ -158,6 +157,20 @@ $block-grid-max: 8;
   src: url('../../fonts/Munika-Regular.woff2') format('woff2'),
   url('../../fonts/Munika-Regular.woff') format('woff');
   font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans-Heavy';
+  src: url('../../fonts/KindSans-Heavy.woff2') format('woff2'),
+  url('../../fonts/KindSans-Heavy.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans-Black';
+  src: url('../../fonts/KindSans-Black.woff2') format('woff2'),
+  url('../../fonts/KindSans-Black.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
 }
 @font-face {

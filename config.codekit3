@@ -197,6 +197,22 @@
       "oAP" : "\/assets\/fonts\/glyphicons-halflings-regular.woff2",
       "oF" : 0
     },
+    "\/assets\/fonts\/KindSans-Black.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Black.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Black.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Black.woff2",
+      "oF" : 0
+    },
     "\/assets\/fonts\/KindSans-Bold.woff" : {
       "cB" : 0,
       "ft" : 8192,
@@ -211,6 +227,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/fonts\/KindSans-Bold.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Heavy.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Heavy.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/KindSans-Heavy.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/KindSans-Heavy.woff2",
       "oF" : 0
     },
     "\/assets\/fonts\/KindSans-Medium.woff" : {
@@ -10127,6 +10159,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/content\/testimonial-scroll.php",
+      "oF" : 0
+    },
+    "\/parts\/form\/multi-step-form.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/form\/multi-step-form.php",
       "oF" : 0
     },
     "\/parts\/header\/home-page-header.php" : {

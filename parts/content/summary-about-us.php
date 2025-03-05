@@ -3,7 +3,7 @@
     <div class="grid-x grid-padding-x padding-vertical-4 align-middle">
       <div class="large-6 medium-6 cell small-order-2 medium-order-1">
         <div class="section-title">
-          <h3>We are AlphaKey Mortgages</h3>
+          <h3>We are Alphakey Mortgages</h3>
         </div>
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Ad asperiores aspernatur atque beatae commodi
@@ -38,6 +38,6 @@
     </div>
   </div>
 
-  <hr/>
+  <hr />
 
 </div>

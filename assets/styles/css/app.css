@@ -33,6 +33,18 @@ CSS file.
   font-style: normal;
 }
 @font-face {
+  font-family: "KindSans-Heavy";
+  src: url("../../fonts/KindSans-Heavy.woff2") format("woff2"), url("../../fonts/KindSans-Heavy.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KindSans-Black";
+  src: url("../../fonts/KindSans-Black.woff2") format("woff2"), url("../../fonts/KindSans-Black.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
   font-family: "KindSans-Bold";
   src: url("../../fonts/KindSans-Bold.woff2") format("woff2"), url("../../fonts/KindSans-Bold.woff") format("woff");
   font-weight: bold;
@@ -10603,6 +10615,10 @@ a[href^=tel] {
   overflow: hidden;
 }
 
+.ins-feature-scroll-item a {
+  text-decoration: none;
+}
+
 .ins-feature-scroll-item .ins-ft-scroll-area {
   width: 365px;
   height: 235px;
@@ -11705,6 +11721,20 @@ FOOTER STYLES
   height: 100%;
   top: 0;
   left: 0;
+}
+
+.lead-heading {
+  font-size: 6.75vw;
+  font-family: "KindSans-Black", KidSans, Roboto, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.lead-text {
+  font-size: 1.75vw;
+  line-height: 1.5;
+  font-family: "Munika-Regular", Munika, Arial, sans-serif;
+  color: #fff;
 }
 
 /* ---- particles.js container ---- */

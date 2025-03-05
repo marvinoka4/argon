@@ -27,6 +27,20 @@
   left: 0;
 }
 
+.lead-heading {
+  font-size: 6.75vw;
+  font-family: "KindSans-Black", KidSans, Roboto, Arial, sans-serif;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+.lead-text {
+  font-size: 1.75vw;
+  line-height: 1.5;
+  font-family: "Munika-Regular", Munika, Arial, sans-serif;
+  color:#fff;
+}
+
 /* ---- particles.js container ---- */
 
 #particles-js {
