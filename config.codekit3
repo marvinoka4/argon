@@ -9139,6 +9139,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/uploads\/demo-hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 100340,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/demo-hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/uploads\/hero-1.jpg" : {
       "ft" : 16384,
       "iS" : 163250,
@@ -10058,6 +10071,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/content\/content-page-sidebar.php",
+      "oF" : 0
+    },
+    "\/parts\/content\/demo-intro.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/demo-intro.php",
       "oF" : 0
     },
     "\/parts\/content\/demo-section1-content.php" : {

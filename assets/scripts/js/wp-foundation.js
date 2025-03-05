@@ -28,7 +28,12 @@ jQuery(document).ready(function() {
     jQuery(".hamburger").removeClass("is-active");
   })
 
-
+  // make active page obvious from navigation
+  document.querySelectorAll('.nav-link').forEach(link => {
+    if(link.href === window.location.href){
+      link.setAttribute('aria-current', 'page')
+    }
+  })
 
 });
 

@@ -13,7 +13,7 @@
   <div class="grid-container">
     <div class="inner-footer grid-x grid-margin-x grid-margin-y text-center large-text-left padding-vertical-4">
 
-      <div class="cell large-12 medium-12 small-12 padding-bottom-2 align-center text-center">
+      <div class="cell large-12 medium-12 small-12 align-center text-center">
         <a href="/">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/util/site_logo_white.svg" width="250" alt="AKM"/>
         </a>
