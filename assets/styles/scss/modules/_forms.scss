@@ -15,11 +15,12 @@
 }
 
 .progress ul.progress-steps {
+  gap: 2em;
   display: flex;
+  margin-left: 0;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2em;
 }
 
 .progress ul.progress-steps li {
@@ -180,10 +181,10 @@ form > .form-four .bg-svg {
 .mortgage-type input[type=radio] + label {
   background: get-color(light-grey);
   color: get-color(primary);
-  padding: 0.5em;
+  padding: 1.5em 0;
   margin: 2em;
   width: 160px;
-  height: 125px;
+  height: 145px;
   border-radius: 3px;
   border: 1px solid get-color(secondary);
 }
@@ -191,7 +192,6 @@ form > .form-four .bg-svg {
 .mortgage-type input[type=radio]:checked + label {
   background: get-color(primary);
   color: get-color(light-grey);
-  padding: 1em;
 }
 
 .mortgage-type input[type=radio]:hover + label {
@@ -236,6 +236,37 @@ form > .form-four .bg-svg {
   vertical-align: top;
 }
 
+.is-invalid {
+  border-color: get-color(warning) !important;
+}
+
+.form-error {
+  display: none;
+  color:  get-color(warning);
+  font-size: 0.65rem;
+}
+
+.is-invalid ~ .form-error {
+  display: block;
+}
+
+.is-invalid-label {
+  color: get-color(warning);
+}
+
+.alert.callout {
+  background-color: #fce6e2;
+  color:  get-color(warning);
+}
+
+.form-four table.unstriped td {
+  font-size: 0.75rem; /* Even smaller on mobile */
+}
+
+/* Optional: Style the first column (labels) differently if desired */
+.form-four table.unstriped td:first-child {
+  font-weight: bold; /* Make labels stand out */
+}
 
 @media screen and (min-width: 640px){
   .progress ul.progress-steps {
@@ -269,6 +300,12 @@ form > .form-four .bg-svg {
   .radio-row {
     display: flex;
     flex-direction: row;
+  }
+
+  /* Target all text within the summary table */
+  .form-four table.unstriped td {
+    font-size: 0.85rem; /* Adjust this value to make text smaller (default is usually 1rem) */
+    line-height: 1.2; /* Optional: Adjust line height for better readability */
   }
 
 }

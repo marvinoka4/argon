@@ -8,7 +8,7 @@ get_header(); ?>
 
     <?php get_template_part('parts/content/demo-intro'); ?>
 
-    <?php get_template_part('parts/form/multi-step-form'); ?>
+    <?php get_template_part('parts/form/mortgages-form'); ?>
 
     <?php get_template_part('parts/content/summary-about-us'); ?>
 
