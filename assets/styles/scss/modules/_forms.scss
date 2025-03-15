@@ -1,5 +1,5 @@
 .form-box {
-  border: 8px solid get-color(secondary);
+  border: 2px solid get-color(light-grey);
   border-radius: 3px;
   background-color: #faf9ff;
 }
@@ -36,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 1em;
+  margin-right: 0.5em;
   border-radius: 50%;
   background-color: get-color(secondary);
   z-index: 1;
@@ -45,7 +45,7 @@
 .progress ul.progress-steps li.active > span {
   color: white;
   background-color: get-color(primary);
-  border: 2px solid get-color(white);
+  border: 2px solid get-color(light);
   z-index: 1;
 }
 
@@ -74,7 +74,7 @@ form > div p {
 form > div > div:not(.checkbox) {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 form :where(input,select) {
@@ -88,7 +88,6 @@ form :where(input,select) {
 
 form label {
   font-size: smaller;
-  margin-bottom: 0.5em;
 }
 
 form .grouping {
@@ -163,8 +162,7 @@ form > .form-four .bg-svg {
 
 .mortgage-type > fieldset {
   display: flex;
-  flex-direction: column;
-  gap: 3em;
+  flex-direction: column
 }
 
 .mortgage-type input[type=radio] {
@@ -182,8 +180,10 @@ form > .form-four .bg-svg {
 .mortgage-type input[type=radio] + label {
   background: get-color(light-grey);
   color: get-color(primary);
-  padding: 1em;
-  width: 175px;
+  padding: 0.5em;
+  margin: 2em;
+  width: 160px;
+  height: 125px;
   border-radius: 3px;
   border: 1px solid get-color(secondary);
 }
@@ -214,6 +214,27 @@ form > .form-four .bg-svg {
   color: get-color(light-grey);
 }
 
+.radio-column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+//.radio-row:after {
+//  content: "";
+//  display: table;
+//  clear: both;
+//}
+.radio-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box table, .form-box th, .form-box td {
+  border: 1px solid #ccc;
+  text-align: left;
+  vertical-align: top;
+}
 
 
 @media screen and (min-width: 640px){
@@ -243,6 +264,11 @@ form > .form-four .bg-svg {
 
   .form-box form {
     padding: 3em;
+  }
+
+  .radio-row {
+    display: flex;
+    flex-direction: row;
   }
 
 }

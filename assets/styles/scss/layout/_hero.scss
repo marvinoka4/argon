@@ -29,14 +29,15 @@
 
 .lead-heading {
   font-size: 6.75vw;
+  line-height: 1.1 !important;
   font-family: "KindSans-Black", KidSans, Roboto, Arial, sans-serif;
   text-transform: uppercase;
   color:#fff;
 }
 
 .lead-text {
-  font-size: 1.75vw;
-  line-height: 1.5;
+  font-size: 2vw;
+  line-height: 1.1 !important;
   font-family: "Munika-Regular", Munika, Arial, sans-serif;
   color:#fff;
 }
@@ -53,4 +54,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .lead-text {
+    font-size: 16px;
+    line-height: 20px !important;
+    font-family: "Munika-Regular", Munika, Arial, sans-serif;
+    color:#fff;
+  }
 }

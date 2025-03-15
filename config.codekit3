@@ -10049,6 +10049,22 @@
       "oAP" : "\/page-templates\/demo.php",
       "oF" : 0
     },
+    "\/page-templates\/mortgages.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-templates\/mortgages.php",
+      "oF" : 0
+    },
+    "\/page-templates\/protections.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-templates\/protections.php",
+      "oF" : 0
+    },
     "\/page-templates\/test.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10167,6 +10183,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/form\/multi-step-form.php",
+      "oF" : 0
+    },
+    "\/parts\/form\/protections-form.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/form\/protections-form.php",
       "oF" : 0
     },
     "\/parts\/header\/home-page-header.php" : {
