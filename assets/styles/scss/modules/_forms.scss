@@ -124,6 +124,45 @@ form > div:not(.btn-group) {
   }
 }
 
+.submission-success {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5em;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.submission-success .bg-svg {
+  width: 150px;
+  height: 150px;
+  margin: 2.5em;
+  background: url("../../images/scroll/ic2.svg") no-repeat;
+  background-size: cover;
+  justify-self: center;
+}
+
+.submission-success {
+  display: none; /* Initial state */
+  padding: 20px;
+}
+
+.submission-success h2 {
+  color: #28a745; /* Green for success */
+  margin-bottom: 10px;
+}
+
+.submission-success p.lead {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Ensure the grid adjusts when form hides */
+.grid-x > .cell {
+  transition: display 0.3s ease; /* Optional smooth transition */
+}
+
 form > div.active {
   display: block;
 }

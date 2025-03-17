@@ -10061,6 +10061,14 @@
       "oAP" : "\/page-templates\/about.php",
       "oF" : 0
     },
+    "\/page-templates\/contact.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-templates\/contact.php",
+      "oF" : 0
+    },
     "\/page-templates\/demo.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10107,14 +10115,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/content\/about-intro.php",
-      "oF" : 0
-    },
-    "\/parts\/content\/contact-form.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/parts\/content\/contact-form.php",
       "oF" : 0
     },
     "\/parts\/content\/content-byline.php" : {
@@ -10195,6 +10195,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/content\/testimonial-scroll.php",
+      "oF" : 0
+    },
+    "\/parts\/form\/contact-form.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/form\/contact-form.php",
       "oF" : 0
     },
     "\/parts\/form\/mortgages-form.php" : {

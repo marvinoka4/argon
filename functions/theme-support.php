@@ -107,7 +107,7 @@ function handle_formidable_submission()
             14 => isset($formData['lastName']) ? (string) $formData['lastName'] : '',
             15 => isset($formData['email']) ? (string) $formData['email'] : '',
             16 => isset($formData['employmentStatus']) ? ucwords(str_replace('-', ' ', $formData['employmentStatus'])) : '', // e.g., "self-employed" -> "Self Employed"
-            17 => isset($formData['income']) ? '£' . number_format((int) $formData['income'], 0, '.', ',') : '£0' // e.g., "544433564345535344" -> "£544,433,564,345,535,344"
+            17 => isset($formData['grossAnnualIncome']) ? '£' . number_format((int) $formData['grossAnnualIncome'], 0, '.', ',') : '£0' // e.g., "544433564345535344" -> "£544,433,564,345,535,344"
         )
     );
 
@@ -202,4 +202,51 @@ function handle_protection_formidable_submission()
     }
 
     wp_die();
+}
+
+
+// custom formidable contact form
+add_action('wp_ajax_submit_contact_to_formidable', 'submit_contact_to_formidable_handler');
+add_action('wp_ajax_nopriv_submit_contact_to_formidable', 'submit_contact_to_formidable_handler');
+
+function submit_contact_to_formidable_handler()
+{
+    check_ajax_referer('submit_to_formidable_nonce', 'nonce');
+
+    if (!isset($_POST['formData'])) {
+        wp_send_json_error('No form data provided.');
+        return;
+    }
+
+    $formData = json_decode(stripslashes($_POST['formData']), true);
+    if (!$formData) {
+        wp_send_json_error('Invalid form data.');
+        return;
+    }
+
+    // Define your Formidable form ID
+    $form_id = 4; // Replace with your actual Contact Form ID
+
+    // Map form data to Formidable field IDs (replace with your field IDs)
+    $entry_data = [
+        32 => $formData['contactName'],    // Field ID for Name
+        33 => $formData['contactEmail'],   // Field ID for Email
+        34 => $formData['contactMessage'], // Field ID for Message
+    ];
+
+    // Create Formidable entry
+    if (function_exists('frm_create_entry')) {
+        $entry_id = frm_create_entry([
+            'form_id' => $form_id,
+            'item_meta' => $entry_data,
+        ]);
+
+        if ($entry_id && !is_wp_error($entry_id)) {
+            wp_send_json_success(['entry_id' => $entry_id]);
+        } else {
+            wp_send_json_error('Failed to create entry.');
+        }
+    } else {
+        wp_send_json_error('Formidable Forms not active.');
+    }
 }

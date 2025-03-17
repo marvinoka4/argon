@@ -5,7 +5,7 @@
                 <div class="container">
                     <div class="form-box" id="form-box">
                         <div class="grid-x align-center-middle">
-                            <div class="cell medium-5 small-12 align-center-middle">
+                            <div class="cell medium-5 small-12 form-progress">
                                 <div class="progress margin-vertical-1">
                                     <div class="logo text-center margin-bottom-4 hide-for-small-only">
                                         <a href="">
@@ -32,8 +32,8 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="cell medium-7 small-12">
-                                <form action="" data-abide novalidate>
+                            <div class="cell medium-7 small-12 form-content">
+                                <form action="" data-abide novalidate id="mortgageForm">
                                     <div data-abide-error class="alert callout" style="display: none;">
                                         <p><i class="fi-alert"></i> Please select required options.</p>
                                     </div>
@@ -45,7 +45,7 @@
                                                     <h2 class="margin-bottom-2">Select Mortgage Type</h2>
                                                 </legend>
                                                 <div>
-                                                    <input type="radio" name="mortgage-option" value="purchase" id="purchase" required>
+                                                    <input type="radio" name="mortgageOption" value="purchase" id="purchase" required>
                                                     <label for="purchase">
                                                         <div class="ins-ft-scroll-icon">
                                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scroll/ic8.svg" alt="">
@@ -54,7 +54,7 @@
                                                     </label>
                                                 </div>
                                                 <div>
-                                                    <input type="radio" name="mortgage-option" value="remortgage" id="remortgage">
+                                                    <input type="radio" name="mortgageOption" value="remortgage" id="remortgage">
                                                     <label for="remortgage">
                                                         <div class="ins-ft-scroll-icon">
                                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scroll/ic10.svg" alt="">
@@ -63,7 +63,7 @@
                                                     </label>
                                                 </div>
                                                 <div>
-                                                    <input type="radio" name="mortgage-option" value="specialist-lending" id="specialist-lending">
+                                                    <input type="radio" name="mortgageOption" value="specialist-lending" id="specialist-lending">
                                                     <label for="specialist-lending">
                                                         <div class="ins-ft-scroll-icon">
                                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scroll/ic5.svg" alt="">
@@ -71,6 +71,7 @@
                                                         <span>Specialist Lending</span>
                                                     </label>
                                                 </div>
+                                                <span class="form-error">Mortgage type is required.</span>
                                             </fieldset>
                                         </div>
                                     </div>
@@ -80,7 +81,7 @@
                                         <div class="cell medium-12">
                                             <label>
                                                 <legend>Reason for Loan?</legend>
-                                                <select id="select" required>
+                                                <select id="reason" name="reason" required>
                                                     <option value="">Please Select</option>
                                                     <option value="first-time-buyer">First Time Buyer</option>
                                                     <option value="new-build">New Build</option>
@@ -90,6 +91,7 @@
                                                     <option value="shared-ownership">Shared Ownership</option>
                                                     <option value="home-mover">Home Mover</option>
                                                 </select>
+                                                <span class="form-error">Reason for loan is required.</span>
                                             </label>
                                         </div>
                                         <div class="grid-container">
@@ -102,34 +104,37 @@
                                         <div class="cell medium-12">
                                             <div class="grid-x">
                                                 <div class="small-4 cell">
-                                                    <label for="property-price" class="text-left middle">Property Price</label>
+                                                    <label for="propertyPrice" class="text-left middle">Property Price</label>
                                                 </div>
                                                 <div class="small-7 small-offset-1 cell">
                                                     <div class="input-group">
                                                         <span class="input-group-label">£</span>
-                                                        <input class="input-group-field" id="property-price" type="number" required pattern="number" />
+                                                        <input class="input-group-field" id="propertyPrice" name="propertyPrice" type="number" required pattern="^[0-9]+$" min="1">
+                                                        <span class="form-error">Please enter a valid property price.</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="grid-x">
                                                 <div class="small-4 cell">
-                                                    <label for="loan-amount" class="text-left middle">Loan Amount</label>
+                                                    <label for="loanAmount" class="text-left middle">Loan Amount</label>
                                                 </div>
                                                 <div class="small-7 small-offset-1 cell">
                                                     <div class="input-group">
                                                         <span class="input-group-label">£</span>
-                                                        <input class="input-group-field" id="loan-amount" type="number" required pattern="number" />
+                                                        <input class="input-group-field" id="loanAmount" name="loanAmount" type="number" required pattern="^[0-9]+$" min="1">
+                                                        <span class="form-error">Please enter a valid loan amount.</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="grid-x">
                                                 <div class="small-4 cell">
-                                                    <label for="mortgage-term" class="text-left middle">Mortgage Term</label>
+                                                    <label for="mortgageTerm" class="text-left middle">Mortgage Term</label>
                                                 </div>
                                                 <div class="small-7 small-offset-1 cell">
                                                     <div class="input-group">
-                                                        <input class="input-group-field" id="mortgage-term" type="number" required pattern="number" />
+                                                        <input class="input-group-field" id="mortgageTerm" name="mortgageTerm" type="number" required pattern="^[0-9]+$" min="1">
                                                         <span class="input-group-label">years</span>
+                                                        <span class="form-error">Please enter a valid mortgage term.</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -139,13 +144,13 @@
                                     <div class="form-three form-step">
                                         <h2 class="margin-bottom-2">Applicant Details</h2>
                                         <div>
-                                            <label for="first-name">First Name</label>
-                                            <input type="text" id="first-name" name="first-name" placeholder="e.g. John" required>
+                                            <label for="firstName">First Name</label>
+                                            <input type="text" id="firstName" name="firstName" placeholder="e.g. John" required>
                                             <span class="form-error">First name is required.</span>
                                         </div>
                                         <div>
-                                            <label for="last-name">Last Name</label>
-                                            <input type="text" id="last-name" name="last-name" placeholder="e.g. Doe" required>
+                                            <label for="lastName">Last Name</label>
+                                            <input type="text" id="lastName" name="lastName" placeholder="e.g. Doe" required>
                                             <span class="form-error">Last name is required.</span>
                                         </div>
                                         <div>
@@ -160,8 +165,8 @@
                                         </div>
                                         <div class="cell medium-12">
                                             <label>
-                                                <legend>Employment status</legend>
-                                                <select id="employment-status" name="employment-status" required>
+                                                <legend>Employment Status</legend>
+                                                <select id="employmentStatus" name="employmentStatus" required>
                                                     <option value="">Please Select</option>
                                                     <option value="employed">Employed</option>
                                                     <option value="self-employed">Self-employed</option>
@@ -174,12 +179,12 @@
                                         </div>
                                         <div class="grid-x">
                                             <div class="small-7 cell">
-                                                <label for="gross-annual-income" class="text-left middle">Gross Annual Income</label>
+                                                <label for="grossAnnualIncome" class="text-left middle">Gross Annual Income</label>
                                             </div>
                                             <div class="small-12 cell">
                                                 <div class="input-group">
                                                     <span class="input-group-label">£</span>
-                                                    <input class="input-group-field" id="gross-annual-income" name="gross-annual-income" type="number" required pattern="^[0-9]+$" min="1">
+                                                    <input class="input-group-field" id="grossAnnualIncome" name="grossAnnualIncome" type="number" required pattern="^[0-9]+$" min="1">
                                                     <span class="form-error">Please enter a valid income amount.</span>
                                                 </div>
                                             </div>
@@ -192,39 +197,39 @@
                                             <tbody>
                                                 <tr>
                                                     <td>Mortgage Type</td>
-                                                    <td id="summary-mortgage-type">Not selected</td>
+                                                    <td id="summaryMortgageType">Not selected</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Reason for Loan</td>
-                                                    <td id="summary-reason">Not selected</td>
+                                                    <td id="summaryReason">Not selected</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Property Price</td>
-                                                    <td id="summary-property-price">£0</td>
+                                                    <td id="summaryPropertyPrice">£0</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Loan Amount</td>
-                                                    <td id="summary-loan-amount">£0</td>
+                                                    <td id="summaryLoanAmount">£0</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Mortgage Term</td>
-                                                    <td id="summary-mortgage-term">0 years</td>
+                                                    <td id="summaryMortgageTerm">0 years</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Applicant Name</td>
-                                                    <td id="summary-applicant-name">Not provided</td>
+                                                    <td id="summaryApplicantName">Not provided</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Email</td>
-                                                    <td id="summary-email">Not provided</td>
+                                                    <td id="summaryEmail">Not provided</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Employment Status</td>
-                                                    <td id="summary-employment-status">Not selected</td>
+                                                    <td id="summaryEmploymentStatus">Not selected</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Gross Annual Income</td>
-                                                    <td id="summary-income">£0</td>
+                                                    <td id="summaryGrossAnnualIncome">£0</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -233,9 +238,14 @@
                                     <div class="btn-group button-group expanded align-justify padding-vertical-2">
                                         <button type="button" class="button btn-prev" disabled>Back</button>
                                         <button type="button" class="button btn-next">Next</button>
-                                        <button type="button" class="button success btn-submit">Submit</button>
+                                        <button type="button" class="button success btn-submit" id="submitButton" style="display: none;">Submit</button>
                                     </div>
                                 </form>
+                            </div>
+                            <div class="cell small-12 medium-12 text-center submission-success" style="display: none;">
+                                <div class="bg-svg text-center"></div>
+                                <h2>Form Sent</h2>
+                                <p class="lead">Your input has been noted, someone from our team will reach out to you.</p>
                             </div>
                         </div>
                     </div>
@@ -249,43 +259,46 @@
     document.addEventListener('DOMContentLoaded', () => {
         const nextButton = document.querySelector('.btn-next');
         const prevButton = document.querySelector('.btn-prev');
-        const submitButton = document.querySelector('.btn-submit');
+        const submitButton = document.querySelector('#submitButton');
         const steps = document.querySelectorAll('.step');
         const formSteps = document.querySelectorAll('.form-step');
-        const form = document.querySelector('form[data-abide]');
+        const form = document.querySelector('#mortgageForm');
+        const formProgress = document.querySelector('.form-progress');
+        const formContent = document.querySelector('.form-content');
+        const submissionSuccess = document.querySelector('.submission-success');
         let active = 1;
         const formData = {};
 
-        // Initialize Foundation Abide (if using Foundation)
+        // Initialize Foundation Abide (assumes jQuery and Foundation are loaded)
         const abide = new Foundation.Abide(jQuery(form));
 
         // Function to collect form data
         const collectFormData = () => {
-            const mortgageType = form.querySelector('input[name="mortgage-option"]:checked');
+            const mortgageType = form.querySelector('input[name="mortgageOption"]:checked');
             formData.mortgageType = mortgageType ? mortgageType.value : 'Not selected';
-            formData.reason = form.querySelector('#select').value || 'Not selected';
-            formData.propertyPrice = form.querySelector('#property-price').value || '0';
-            formData.loanAmount = form.querySelector('#loan-amount').value || '0';
-            formData.mortgageTerm = form.querySelector('#mortgage-term').value || '0';
-            formData.firstName = form.querySelector('#first-name').value || '';
-            formData.lastName = form.querySelector('#last-name').value || '';
+            formData.reason = form.querySelector('#reason').value || 'Not selected';
+            formData.propertyPrice = form.querySelector('#propertyPrice').value || '0';
+            formData.loanAmount = form.querySelector('#loanAmount').value || '0';
+            formData.mortgageTerm = form.querySelector('#mortgageTerm').value || '0';
+            formData.firstName = form.querySelector('#firstName').value || '';
+            formData.lastName = form.querySelector('#lastName').value || '';
             formData.email = form.querySelector('#email').value || 'Not provided';
-            formData.employmentStatus = form.querySelector('#employment-status').value || 'Not selected';
-            formData.income = form.querySelector('#gross-annual-income').value || '0';
+            formData.employmentStatus = form.querySelector('#employmentStatus').value || 'Not selected';
+            formData.grossAnnualIncome = form.querySelector('#grossAnnualIncome').value || '0';
         };
 
         // Function to populate summary table
         const populateSummary = () => {
             if (active === 4) {
-                document.querySelector('#summary-mortgage-type').textContent = formData.mortgageType.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
-                document.querySelector('#summary-reason').textContent = formData.reason.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase()) || 'Not selected';
-                document.querySelector('#summary-property-price').textContent = `£${parseFloat(formData.propertyPrice).toLocaleString()}`;
-                document.querySelector('#summary-loan-amount').textContent = `£${parseFloat(formData.loanAmount).toLocaleString()}`;
-                document.querySelector('#summary-mortgage-term').textContent = `${formData.mortgageTerm} years`;
-                document.querySelector('#summary-applicant-name').textContent = `${formData.firstName} ${formData.lastName}`.trim() || 'Not provided';
-                document.querySelector('#summary-email').textContent = formData.email;
-                document.querySelector('#summary-employment-status').textContent = formData.employmentStatus.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
-                document.querySelector('#summary-income').textContent = `£${parseFloat(formData.income).toLocaleString()}`;
+                document.querySelector('#summaryMortgageType').textContent = formData.mortgageType.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
+                document.querySelector('#summaryReason').textContent = formData.reason.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase()) || 'Not selected';
+                document.querySelector('#summaryPropertyPrice').textContent = `£${parseFloat(formData.propertyPrice).toLocaleString()}`;
+                document.querySelector('#summaryLoanAmount').textContent = `£${parseFloat(formData.loanAmount).toLocaleString()}`;
+                document.querySelector('#summaryMortgageTerm').textContent = `${formData.mortgageTerm} years`;
+                document.querySelector('#summaryApplicantName').textContent = `${formData.firstName} ${formData.lastName}`.trim() || 'Not provided';
+                document.querySelector('#summaryEmail').textContent = formData.email;
+                document.querySelector('#summaryEmploymentStatus').textContent = formData.employmentStatus.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
+                document.querySelector('#summaryGrossAnnualIncome').textContent = `£${parseFloat(formData.grossAnnualIncome).toLocaleString()}`;
             }
         };
 
@@ -352,7 +365,7 @@
             updateProgress();
         });
 
-        // Submit button click (single event listener)
+        // Submit button click
         submitButton.addEventListener('click', (e) => {
             e.preventDefault();
             let allValid = true;
@@ -367,8 +380,8 @@
             }
 
             if (allValid) {
-                collectFormData(); // Ensure data is collected
-                console.log('Form Data before submission:', formData); // Debug log
+                collectFormData();
+                console.log('Form Data before submission:', formData);
                 submitToFormidable();
             }
         });
@@ -392,9 +405,9 @@
         const submitToFormidable = async () => {
             const ajaxUrl = '<?php echo admin_url('admin-ajax.php'); ?>';
             const nonce = '<?php echo wp_create_nonce('submit_to_formidable_nonce'); ?>';
-            console.log('formData before stringify:', formData); // Debug raw object
+            console.log('formData before stringify:', formData);
             const jsonString = JSON.stringify(formData);
-            console.log('JSON string to send:', jsonString); // Debug JSON string
+            console.log('JSON string to send:', jsonString);
             const payload = new URLSearchParams({
                 action: 'submit_to_formidable',
                 nonce: nonce,
@@ -413,7 +426,10 @@
                 if (response.ok) {
                     const result = await response.json();
                     console.log('Formidable Entry Created:', result);
-                    alert('Form submitted successfully!');
+                    // Hide form and progress, show success message
+                    formProgress.style.display = 'none';
+                    formContent.style.display = 'none';
+                    submissionSuccess.style.display = 'block';
                 } else {
                     console.error('Error:', response.statusText);
                     alert('There was an error submitting the form: ' + response.statusText);

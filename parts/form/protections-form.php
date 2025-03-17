@@ -5,7 +5,7 @@
         <div class="container">
           <div class="form-box" id="form-box">
             <div class="grid-x align-center-middle">
-              <div class="cell medium-5 small-12">
+              <div class="cell medium-5 small-12 form-progress">
                 <div class="progress margin-vertical-1">
                   <div class="logo text-center margin-bottom-4 hide-for-small-only">
                     <a href="">
@@ -32,7 +32,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="cell medium-7 small-12">
+              <div class="cell medium-7 small-12 form-content">
                 <form action="" data-abide novalidate id="protectionForm">
                   <div data-abide-error class="alert callout" style="display: none;">
                     <p><i class="fi-alert"></i> Please fill in all required fields correctly.</p>
@@ -141,7 +141,7 @@
                     </div>
                     <div>
                       <label for="phone">Phone</label>
-                      <input type="tel" id="phone" name="phone" placeholder="+234xxxxx" required pattern="^\+?[1-9]\d{1,14}$">
+                      <input type="tel" id="phone" name="phone" placeholder="+44xxxxx" required pattern="^\+?[1-9]\d{1,14}$">
                       <span class="form-error">Please enter a valid phone number.</span>
                     </div>
                     <div>
@@ -264,6 +264,11 @@
                   </div>
                 </form>
               </div>
+              <div class="cell small-12 medium-12 text-center submission-success" style="display: none;">
+                <div class="bg-svg text-center"></div>
+                <h2>Form Sent</h2>
+                <p class="lead">Your input has been noted, someone from our team will reach out to you.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -280,6 +285,9 @@
     const steps = document.querySelectorAll('.step');
     const formSteps = document.querySelectorAll('.form-step');
     const form = document.querySelector('#protectionForm');
+    const formProgress = document.querySelector('.form-progress');
+    const formContent = document.querySelector('.form-content');
+    const submissionSuccess = document.querySelector('.submission-success');
     let active = 1;
     let formData = {};
 
@@ -445,7 +453,10 @@
         if (response.ok) {
           const result = await response.json();
           console.log('Formidable Entry Created:', result);
-          alert('Form submitted successfully!');
+          // Hide form and progress, show success message
+          formProgress.style.display = 'none';
+          formContent.style.display = 'none';
+          submissionSuccess.style.display = 'block';
         } else {
           console.error('Error:', response.statusText);
           alert('There was an error submitting the form: ' + response.statusText);
