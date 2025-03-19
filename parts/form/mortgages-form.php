@@ -406,7 +406,6 @@
 
             const validOption = options.find(opt => opt.value === currentValue);
             reasonSelect.value = validOption ? currentValue : '';
-            console.log('Reason updated. Current value:', reasonSelect.value, 'Mortgage type:', mortgageType);
 
             reasonSelect.dispatchEvent(new Event('change', {
                 bubbles: true
@@ -537,7 +536,6 @@
 
             if (allValid) {
                 collectFormData();
-                console.log('Form Data before submission:', formData);
                 submitToFormidable();
             }
         });
@@ -606,16 +604,13 @@
 
                 if (response.ok) {
                     const result = await response.json();
-                    console.log('Formidable Entry Created:', result);
                     formProgress.style.display = 'none';
                     formContent.style.display = 'none';
                     submissionSuccess.style.display = 'block';
                 } else {
-                    console.error('Error:', response.statusText);
                     alert('There was an error submitting the form: ' + response.statusText);
                 }
             } catch (error) {
-                console.error('AJAX request failed:', error);
                 alert('An error occurred while submitting the form.');
             }
         };
