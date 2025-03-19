@@ -6,7 +6,7 @@ get_header(); ?>
 
     <?php get_template_part('parts/header/page-header'); ?>
 
-    <?php get_template_part('parts/form/contact-form'); ?>
+    <!-- <?php get_template_part('parts/form/contact-form'); ?> -->
 
 </main>
 

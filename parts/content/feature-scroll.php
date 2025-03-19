@@ -51,7 +51,7 @@
 
         <div class="ins-feature-scroll-item text-center swiper-slide">
           <div class="ins-ft-scroll-area">
-            <a class="ft-inner-area-content" href="<?php echo get_the_permalink(40); ?>">
+            <a class="ft-inner-area-content" href="<?php echo get_the_permalink(34); ?>/#purchase-section">
               <div class="ins-ft-scroll-icon">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scroll/ic8.svg" alt="">
               </div>
@@ -64,7 +64,7 @@
 
         <div class="ins-feature-scroll-item text-center swiper-slide">
           <div class="ins-ft-scroll-area">
-            <a class="ft-inner-area-content" href="<?php echo get_the_permalink(42); ?>">
+            <a class="ft-inner-area-content" href="<?php echo get_the_permalink(34); ?>/#remortgage-section">
               <div class="ins-ft-scroll-icon">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/scroll/ic10.svg" alt="">
               </div>

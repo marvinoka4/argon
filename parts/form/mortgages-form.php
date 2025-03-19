@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                             <div class="cell medium-7 small-12 form-content">
-                                <form action="" data-abide novalidate id="mortgageForm">
+                                <form action="" data-abide novalidate id="mortgageForm" data-page="<?php echo is_page('specialist-lending') ? 'specialist-lending' : 'mortgages'; ?>">
                                     <div data-abide-error class="alert callout" style="display: none;">
                                         <p><i class="fi-alert"></i> Please select required options.</p>
                                     </div>
@@ -126,6 +126,30 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="grid-x additional-field" id="currentMortgageOutstandingGroup" style="display: none;">
+                                                <div class="small-4 cell">
+                                                    <label for="currentMortgageOutstanding" class="text-left middle">Current Mortgage Outstanding</label>
+                                                </div>
+                                                <div class="small-7 small-offset-1 cell">
+                                                    <div class="input-group">
+                                                        <span class="input-group-label">£</span>
+                                                        <input class="input-group-field" id="currentMortgageOutstanding" name="currentMortgageOutstanding" type="number" pattern="^[0-9]+$" min="0">
+                                                        <span class="form-error">Please enter a valid amount.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-x additional-field" id="additionalLoanAmountGroup" style="display: none;">
+                                                <div class="small-4 cell">
+                                                    <label for="additionalLoanAmount" class="text-left middle">Additional Loan Amount</label>
+                                                </div>
+                                                <div class="small-7 small-offset-1 cell">
+                                                    <div class="input-group">
+                                                        <span class="input-group-label">£</span>
+                                                        <input class="input-group-field" id="additionalLoanAmount" name="additionalLoanAmount" type="number" pattern="^[0-9]+$" min="0">
+                                                        <span class="form-error">Please enter a valid amount.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="grid-x">
                                                 <div class="small-4 cell">
                                                     <label for="mortgageTerm" class="text-left middle">Mortgage Term</label>
@@ -212,6 +236,14 @@
                                                     <td id="summaryLoanAmount">£0</td>
                                                 </tr>
                                                 <tr>
+                                                    <td>Current Mortgage Outstanding</td>
+                                                    <td id="summaryCurrentMortgageOutstanding">N/A</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Additional Loan Amount</td>
+                                                    <td id="summaryAdditionalLoanAmount">N/A</td>
+                                                </tr>
+                                                <tr>
                                                     <td>Mortgage Term</td>
                                                     <td id="summaryMortgageTerm">0 years</td>
                                                 </tr>
@@ -269,8 +301,122 @@
         let active = 1;
         const formData = {};
 
-        // Initialize Foundation Abide (assumes jQuery and Foundation are loaded)
+        // Initialize Foundation Abide
         const abide = new Foundation.Abide(jQuery(form));
+
+        // Define option sets for #reason
+        const standardReasonOptions = [{
+                value: '',
+                text: 'Please Select'
+            },
+            {
+                value: 'first-time-buyer',
+                text: 'First Time Buyer'
+            },
+            {
+                value: 'new-build',
+                text: 'New Build'
+            },
+            {
+                value: 'standard-purchase',
+                text: 'Standard Purchase'
+            },
+            {
+                value: 'help-to-buy',
+                text: 'Help to Buy'
+            },
+            {
+                value: 'right-to-buy',
+                text: 'Right to Buy'
+            },
+            {
+                value: 'shared-ownership',
+                text: 'Shared Ownership'
+            },
+            {
+                value: 'home-mover',
+                text: 'Home Mover'
+            },
+            {
+                value: 'debt-consolidation',
+                text: 'Debt Consolidation'
+            }
+        ];
+
+        const specialistReasonOptions = [{
+                value: '',
+                text: 'Please Select'
+            },
+            {
+                value: 'buy-to-let-purchase',
+                text: 'Buy-to-Let Purchase'
+            },
+            {
+                value: 'buy-to-let-remortgage',
+                text: 'Buy-to-Let Remortgage'
+            },
+            {
+                value: 'equity-release',
+                text: 'Equity Release'
+            },
+            {
+                value: 'bridging-loan',
+                text: 'Bridging Loan'
+            },
+            {
+                value: 'commercial-mortgage',
+                text: 'Commercial Mortgage'
+            },
+            {
+                value: 'secured-loan',
+                text: 'Secured Loan'
+            },
+            {
+                value: 'development-finance',
+                text: 'Development Finance'
+            }
+        ];
+
+        // Function to toggle additional fields
+        const toggleAdditionalFields = () => {
+            const reason = form.querySelector('#reason').value;
+            const showFields = reason === 'debt-consolidation' || reason === 'buy-to-let-remortgage';
+            const currentMortgageGroup = form.querySelector('#currentMortgageOutstandingGroup');
+            const additionalLoanGroup = form.querySelector('#additionalLoanAmountGroup');
+
+            currentMortgageGroup.style.display = showFields ? 'flex' : 'none';
+            additionalLoanGroup.style.display = showFields ? 'flex' : 'none';
+        };
+
+        // Function to update #reason options
+        const updateReasonOptions = () => {
+            const selectedMortgage = form.querySelector('input[name="mortgageOption"]:checked');
+            const reasonSelect = form.querySelector('#reason');
+            const currentValue = reasonSelect.value;
+            const mortgageType = selectedMortgage ? selectedMortgage.value : null;
+            const options = (mortgageType === 'specialist-lending') ? specialistReasonOptions : standardReasonOptions;
+
+            reasonSelect.innerHTML = '';
+            options.forEach(option => {
+                const opt = document.createElement('option');
+                opt.value = option.value;
+                opt.textContent = option.text;
+                reasonSelect.appendChild(opt);
+            });
+
+            const validOption = options.find(opt => opt.value === currentValue);
+            reasonSelect.value = validOption ? currentValue : '';
+            console.log('Reason updated. Current value:', reasonSelect.value, 'Mortgage type:', mortgageType);
+
+            reasonSelect.dispatchEvent(new Event('change', {
+                bubbles: true
+            }));
+            jQuery(reasonSelect).trigger('validate.abide');
+            if (reasonSelect.checkValidity() && reasonSelect.value !== '') {
+                reasonSelect.classList.remove('is-invalid');
+            }
+            toggleAdditionalFields();
+        };
 
         // Function to collect form data
         const collectFormData = () => {
@@ -280,6 +426,8 @@
             formData.propertyPrice = form.querySelector('#propertyPrice').value || '0';
             formData.loanAmount = form.querySelector('#loanAmount').value || '0';
             formData.mortgageTerm = form.querySelector('#mortgageTerm').value || '0';
+            formData.currentMortgageOutstanding = form.querySelector('#currentMortgageOutstanding').value || '0';
+            formData.additionalLoanAmount = form.querySelector('#additionalLoanAmount').value || '0';
             formData.firstName = form.querySelector('#firstName').value || '';
             formData.lastName = form.querySelector('#lastName').value || '';
             formData.email = form.querySelector('#email').value || 'Not provided';
@@ -295,6 +443,12 @@
                 document.querySelector('#summaryPropertyPrice').textContent = `£${parseFloat(formData.propertyPrice).toLocaleString()}`;
                 document.querySelector('#summaryLoanAmount').textContent = `£${parseFloat(formData.loanAmount).toLocaleString()}`;
                 document.querySelector('#summaryMortgageTerm').textContent = `${formData.mortgageTerm} years`;
+                document.querySelector('#summaryCurrentMortgageOutstanding').textContent =
+                    (formData.reason === 'debt-consolidation' || formData.reason === 'buy-to-let-remortgage') ?
+                    `£${parseFloat(formData.currentMortgageOutstanding).toLocaleString()}` : 'N/A';
+                document.querySelector('#summaryAdditionalLoanAmount').textContent =
+                    (formData.reason === 'debt-consolidation' || formData.reason === 'buy-to-let-remortgage') ?
+                    `£${parseFloat(formData.additionalLoanAmount).toLocaleString()}` : 'N/A';
                 document.querySelector('#summaryApplicantName').textContent = `${formData.firstName} ${formData.lastName}`.trim() || 'Not provided';
                 document.querySelector('#summaryEmail').textContent = formData.email;
                 document.querySelector('#summaryEmploymentStatus').textContent = formData.employmentStatus.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
@@ -309,12 +463,14 @@
             let isValid = true;
 
             inputs.forEach(input => {
-                input.dispatchEvent(new Event('input', {
-                    bubbles: true
-                }));
                 input.dispatchEvent(new Event('change', {
                     bubbles: true
                 }));
+                jQuery(input).trigger('validate.abide');
+
+                if (input.closest('.additional-field') && input.closest('.additional-field').style.display === 'none') {
+                    return;
+                }
 
                 if (!input.checkValidity()) {
                     isValid = false;
@@ -398,16 +554,41 @@
             populateSummary();
         });
 
-        // Initial setup
+        // Listen for radio changes
+        form.querySelectorAll('input[name="mortgageOption"]').forEach(radio => {
+            radio.addEventListener('change', () => {
+                updateReasonOptions();
+                collectFormData();
+                populateSummary();
+            });
+        });
+
+        // Listen for #reason changes
+        form.querySelector('#reason').addEventListener('change', (e) => {
+            const reasonSelect = e.target;
+            toggleAdditionalFields();
+            collectFormData();
+            populateSummary();
+            jQuery(reasonSelect).trigger('validate.abide');
+        });
+
+        // Initial setup based on page
+        const pageType = form.getAttribute('data-page');
+        if (pageType === 'specialist-lending') {
+            const specialistRadio = form.querySelector('#specialist-lending');
+            specialistRadio.checked = true;
+            specialistRadio.dispatchEvent(new Event('change', {
+                bubbles: true
+            }));
+        }
+        updateReasonOptions();
         updateProgress();
 
         // Submit to Formidable via AJAX
         const submitToFormidable = async () => {
             const ajaxUrl = '<?php echo admin_url('admin-ajax.php'); ?>';
             const nonce = '<?php echo wp_create_nonce('submit_to_formidable_nonce'); ?>';
-            console.log('formData before stringify:', formData);
             const jsonString = JSON.stringify(formData);
-            console.log('JSON string to send:', jsonString);
             const payload = new URLSearchParams({
                 action: 'submit_to_formidable',
                 nonce: nonce,
@@ -426,7 +607,6 @@
                 if (response.ok) {
                     const result = await response.json();
                     console.log('Formidable Entry Created:', result);
-                    // Hide form and progress, show success message
                     formProgress.style.display = 'none';
                     formContent.style.display = 'none';
                     submissionSuccess.style.display = 'block';

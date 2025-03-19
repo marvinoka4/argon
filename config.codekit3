@@ -9210,6 +9210,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/uploads\/purchase.jpg" : {
+      "ft" : 16384,
+      "iS" : 43963,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/purchase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/remortgage.jpg" : {
+      "ft" : 16384,
+      "iS" : 23300,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/remortgage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/specialist-lending.jpg" : {
+      "ft" : 16384,
+      "iS" : 101606,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/specialist-lending.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/util\/blank.gif" : {
       "ft" : 4194304,
       "iS" : 1177,
@@ -10093,6 +10132,14 @@
       "oAP" : "\/page-templates\/protections.php",
       "oF" : 0
     },
+    "\/page-templates\/specialist-lending.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-templates\/specialist-lending.php",
+      "oF" : 0
+    },
     "\/page-templates\/test.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10171,6 +10218,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/content\/get-in-touch.php",
+      "oF" : 0
+    },
+    "\/parts\/content\/mortgages-intro.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/mortgages-intro.php",
+      "oF" : 0
+    },
+    "\/parts\/content\/purchase-remortgage.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/purchase-remortgage.php",
+      "oF" : 0
+    },
+    "\/parts\/content\/specialist-lending-intro.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/specialist-lending-intro.php",
       "oF" : 0
     },
     "\/parts\/content\/summary-about-us.php" : {

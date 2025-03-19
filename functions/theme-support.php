@@ -102,6 +102,8 @@ function handle_formidable_submission()
             8 => isset($formData['reason']) ? ucwords(str_replace('-', ' ', $formData['reason'])) : '', // e.g., "new-build" -> "New Build"
             10 => isset($formData['propertyPrice']) ? '£' . number_format((int) $formData['propertyPrice'], 0, '.', ',') : '£0', // e.g., "250000" -> "£250,000"
             11 => isset($formData['loanAmount']) ? '£' . number_format((int) $formData['loanAmount'], 0, '.', ',') : '£0', // e.g., "25000" -> "£25,000"
+            31 => isset($formData['currentMortgageOutstanding']) ? '£' . number_format((int) $formData['currentMortgageOutstanding'], 0, '.', ',') : '£0', // e.g., "25000" -> "£25,000"
+            32 => isset($formData['additionalLoanAmount']) ? '£' . number_format((int) $formData['additionalLoanAmount'], 0, '.', ',') : '£0', // e.g., "25000" -> "£25,000"
             12 => isset($formData['mortgageTerm']) ? (int) $formData['mortgageTerm'] . ' years' : '0 years', // e.g., "5" -> "5 years"
             13 => isset($formData['firstName']) ? (string) $formData['firstName'] : '',
             14 => isset($formData['lastName']) ? (string) $formData['lastName'] : '',
