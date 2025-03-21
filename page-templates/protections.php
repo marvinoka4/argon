@@ -6,7 +6,9 @@ get_header(); ?>
 
     <?php get_template_part('parts/header/page-header'); ?>
 
-    <?php get_template_part('parts/content/demo-intro'); ?>
+    <?php get_template_part('parts/content/protection-intro'); ?>
+
+    <?php get_template_part('parts/content/protection-content'); ?>
 
     <?php get_template_part('parts/form/protections-form'); ?>
 

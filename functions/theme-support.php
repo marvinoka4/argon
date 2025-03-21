@@ -229,16 +229,31 @@ function submit_contact_to_formidable_handler()
     // Define your Formidable form ID
     $form_id = 4; // Replace with your actual Contact Form ID
 
-    // Map form data to Formidable field IDs (replace with your field IDs)
-    $entry_data = [
-        32 => $formData['contactName'],    // Field ID for Name
-        33 => $formData['contactEmail'],   // Field ID for Email
-        34 => $formData['contactMessage'], // Field ID for Message
+    // Map reason slugs to display text
+    $reason_map = [
+        'general-enquiry' => 'General Enquiry',
+        'mortgages' => 'Mortgages',
+        'remortgage' => 'Remortgage',
+        'purchase' => 'Purchase',
+        'protection' => 'Protection',
+        'specialist-lending' => 'Specialist Lending'
     ];
 
-    // Create Formidable entry
-    if (function_exists('frm_create_entry')) {
-        $entry_id = frm_create_entry([
+    // Get the display text for the reason
+    $reason_text = isset($reason_map[$formData['reason']]) ? $reason_map[$formData['reason']] : $formData['reason'];
+
+    // Map form data to Formidable field IDs (replace with your field IDs)
+    $entry_data = [
+        34 => $formData['contactName'],    // Field ID for Name
+        35 => $formData['contactPhone'],   // Field ID for Phone
+        36 => $formData['contactEmail'],   // Field ID for Email
+        37 => $reason_text,                // Field ID for Reason (now uses display text)
+        38 => $formData['contactMessage'], // Field ID for Message
+    ];
+
+    // Ensure Formidable’s classes are loaded
+    if (class_exists('FrmEntry')) {
+        $entry_id = FrmEntry::create([
             'form_id' => $form_id,
             'item_meta' => $entry_data,
         ]);
@@ -246,9 +261,9 @@ function submit_contact_to_formidable_handler()
         if ($entry_id && !is_wp_error($entry_id)) {
             wp_send_json_success(['entry_id' => $entry_id]);
         } else {
-            wp_send_json_error('Failed to create entry.');
+            wp_send_json_error('Failed to create entry: ' . (is_wp_error($entry_id) ? $entry_id->get_error_message() : 'Unknown error'));
         }
     } else {
-        wp_send_json_error('Formidable Forms not active.');
+        wp_send_json_error('Formidable Forms plugin is not active or loaded.');
     }
 }

@@ -3,33 +3,23 @@
     <div class="grid-x grid-padding-x padding-vertical-4 align-middle">
       <div class="large-6 medium-6 cell small-order-2 medium-order-1">
         <div class="section-title">
-          <h3>We are Alphakey Mortgages</h3>
+          <h3>Smooth Mortgage and Protection process when you need it the most!</h3>
         </div>
-        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Ad asperiores aspernatur atque beatae commodi
-          dolorem ducimus ea eligendi eveniet, hic id, itaque laborum magnam
-          magni maxime nihil officiis optio pariatur perferendis perspiciatis,
-          quis quisquam sunt tempore unde velit veritatis voluptatem? Commodi
-          debitis eius eos eum eveniet fugit, inventore nemo nostrum, nulla quos
-          rerum sint velit voluptatum. Assumenda cumque exercitationem hic iure
-          repellendus suscipit voluptatum. Debitis dignissimos distinctio,
-          doloremque earum expedita id in iste laborum nemo nisi non odit quam
-          rem suscipit temporibus totam velit! Exercitationem iusto sequi
-          tempore tenetur ut! Debitis error esse explicabo, laudantium quaerat
-          quas sapiente similique voluptas.</p>
-
+        <p class="text-justify">As a whole of market brokerage firm, we are not tied to any specific lender or provider, this means that we source the whole market to recommend the most suitable product for our clients. We aim to build long-term relationships with our clients based on trust, understanding and respect.</p>
+        <p class="text-justify">Whether you are a first-time buyer, re-mortgaging or taking out a buy to let mortgage, we will guide you throughout the process until completion. We can help you arrange other services such as property survey, conveyancing, estate planning and Will writing. We provide services throughout the UK. Feel free to contact us for your residential mortgage, buy to let, commercial mortgage or mortgage protection, life insurance, critical illness cover, income protection and General insurance.
+        </p>
       </div>
 
-      <div class="medium-offset-1 medium-5 cell small-order-1 medium-order-2">
+      <div class="medium-6 cell small-order-1 medium-order-2">
 
         <div class="grid-x grid-padding-x">
           <div class="large-12 medium-12 cell margin-bottom-2">
             <h3 class="margin-top-1">Why Choose Us?</h3>
             <ol class="numbered-large">
-              <li>Lorem Ipsum</li>
-              <li>Ad asperiores aspernatur</li>
-              <li>Assumenda cumque exercitationem</li>
-              <li>Exercitationem iusto sequi</li>
+              <li>Whole of Market Mortgage Broker</li>
+              <li>Whole of Market Protection Insurance Broker</li>
+              <li>Speedy services with immediate access to expert Mortgage and Protection Advisers.</li>
+              <li>Access to other relevant services such as Solicitor/conveyancers, Surveyors, Wills and Estate Planning</li>
             </ol>
           </div>
 

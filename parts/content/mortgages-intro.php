@@ -6,7 +6,7 @@
 
                     <div class="cell">
 
-                        <img class="img-rounded" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/uploads/demo-hero.jpg" alt="">
+                        <img class="img-rounded" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/uploads/mortgages.jpg" alt="">
 
                     </div>
                 </div>

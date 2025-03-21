@@ -1,12 +1,15 @@
 <div class="grid-container relative full ">
     <div class="grid-container">
-        <div class="grid-x grid-padding-x padding-vertical-4 align-middle">
+        <div class="grid-x grid-padding-x padding-vertical-4 align-middle" id="contact-section">
+            <div class="cell medium-12  text-center">
+                <h2 class="margin-bottom-2">Contact Us</h2>
+            </div>
             <div class="large-6 medium-6 cell">
                 <div class="grid-x grid-padding-x">
 
-                    <div class="cell">
+                    <div class="cell medium-12  text-center">
 
-                        <img class="img-rounded" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/uploads/about-hero.jpg" alt="">
+                        <img class="img-rounded" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/uploads/contact-us.jpg" alt="">
 
                     </div>
                 </div>
@@ -21,18 +24,52 @@
                                     <p><i class="fi-alert"></i> Please fill in all required fields correctly.</p>
                                 </div>
 
-                                <h2 class="margin-bottom-2 text-center">Contact Us</h2>
-
                                 <div class="form-step active">
+
+                                    <div class="whatsapp show-for-small-only">
+                                        <h5 class="text-center">Send us a message through WhatsApp</h5>
+                                        <a href="https://wa.me/447419617498" target="_blank" class="whatsapp-button text-center">Message us on WhatsApp
+                                            <img width="30" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fa/whatsapp.svg" alt="down">
+                                        </a>
+
+                                        <h4 class="padding-vertical-1 text-center">- or -</h4>
+
+
+                                        <h5 class="text-center">Fill the form below</h5>
+                                    </div>
+
                                     <div>
                                         <label for="contactName">Name</label>
                                         <input type="text" id="contactName" name="contactName" placeholder="e.g. John Doe" required>
                                         <span class="form-error">Name is required.</span>
                                     </div>
                                     <div>
+                                        <label for="contactPhone">Phone</label>
+                                        <input type="tel" id="contactPhone" name="contactPhone" placeholder="+44xxxxx" required pattern="^\+?[1-9]\d{1,14}$">
+                                        <span class="form-error">Please enter a valid phone number.</span>
+                                    </div>
+                                    <div>
                                         <label for="contactEmail">Email</label>
                                         <input type="email" id="contactEmail" name="contactEmail" placeholder="e.g. johndoe@gmail.com" required>
                                         <span class="form-error">Please enter a valid email address.</span>
+                                    </div>
+                                    <div>
+                                        <div class="cell medium-12">
+                                            <label>
+                                                <legend>Reason for Enquiry</legend>
+                                                <select id="reason" name="reason" required>
+                                                    <option value="" disabled selected>Select an option</option>
+                                                    <option value="general-enquiry">General Enquiry</option>
+                                                    <option value="mortgages">Mortgages</option>
+                                                    <option value="remortgage">Remortgage</option>
+                                                    <option value="purchase">Purchase</option>
+                                                    <option value="protection">Protection</option>
+                                                    <option value="specialist-lending">Specialist Lending</option>
+                                                </select>
+                                                </select>
+                                                <span class="form-error">Reason for enquiry is required.</span>
+                                            </label>
+                                        </div>
                                     </div>
                                     <div>
                                         <label for="contactMessage">Message</label>
@@ -41,7 +78,7 @@
                                     </div>
 
                                     <div class="btn-group button-group expanded align-center padding-vertical-2">
-                                        <button type="button" class="button success btn-submit" id="submitButton">Submit</button>
+                                        <button type="button" class="button contact-btn-submit" id="submitButton">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -74,13 +111,15 @@
         // Function to collect form data
         const collectFormData = () => {
             formData.contactName = form.querySelector('#contactName').value || '';
+            formData.contactPhone = form.querySelector('#contactPhone').value || '';
             formData.contactEmail = form.querySelector('#contactEmail').value || '';
+            formData.reason = form.querySelector('#reason').value || '';
             formData.contactMessage = form.querySelector('#contactMessage').value || '';
         };
 
         // Function to validate form
         const validateForm = () => {
-            const inputs = form.querySelectorAll('input, textarea');
+            const inputs = form.querySelectorAll('input, textarea, select');
             let isValid = true;
 
             inputs.forEach(input => {

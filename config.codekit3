@@ -9171,6 +9171,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/uploads\/contact-us.jpg" : {
+      "ft" : 16384,
+      "iS" : 27613,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/contact-us.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/critical-illness.jpg" : {
+      "ft" : 16384,
+      "iS" : 49928,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/critical-illness.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/uploads\/demo-hero.jpg" : {
       "ft" : 16384,
       "iS" : 100340,
@@ -9210,6 +9236,84 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/uploads\/income-protection.jpg" : {
+      "ft" : 16384,
+      "iS" : 16448,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/income-protection.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/life-early.jpg" : {
+      "ft" : 16384,
+      "iS" : 32027,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/life-early.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/life-insurance.jpg" : {
+      "ft" : 16384,
+      "iS" : 49245,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/life-insurance.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/mortgage-protection.jpg" : {
+      "ft" : 16384,
+      "iS" : 32221,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/mortgage-protection.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/mortgages.jpg" : {
+      "ft" : 16384,
+      "iS" : 31370,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/mortgages.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/protection.jpg" : {
+      "ft" : 16384,
+      "iS" : 66019,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/protection.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/uploads\/purchase.jpg" : {
       "ft" : 16384,
       "iS" : 43963,
@@ -9242,6 +9346,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/uploads\/specialist-lending.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/uploads\/whole-life.jpg" : {
+      "ft" : 16384,
+      "iS" : 32419,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/uploads\/whole-life.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -10226,6 +10343,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/content\/mortgages-intro.php",
+      "oF" : 0
+    },
+    "\/parts\/content\/protection-content.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/protection-content.php",
+      "oF" : 0
+    },
+    "\/parts\/content\/protection-intro.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/parts\/content\/protection-intro.php",
       "oF" : 0
     },
     "\/parts\/content\/purchase-remortgage.php" : {

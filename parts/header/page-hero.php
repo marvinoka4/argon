@@ -44,3 +44,15 @@
     </div>
 
 </div>
+
+
+<div class="grid-container">
+    <div class="grid-x grid-padding-x padding-vertical-4 align-center-middle">
+
+
+        <div class="medium-9 cell small-order-2 medium-order-1 callout light-grey">
+            <p class="text-center lead">We provide exceptional services to clients from all walks of life including professionals, self-employed traders, families, and businesses. We value customer satisfaction greatly and will go above and beyond to provide solution to your mortgage, protection and insurance needs. </p>
+        </div>
+
+    </div>
+</div>

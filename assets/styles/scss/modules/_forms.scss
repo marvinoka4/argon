@@ -258,12 +258,6 @@ form > .form-four .bg-svg {
   width: 50%;
 }
 
-/* Clear floats after the columns */
-//.radio-row:after {
-//  content: "";
-//  display: table;
-//  clear: both;
-//}
 .radio-row {
   display: flex;
   flex-direction: column;
@@ -305,6 +299,23 @@ form > .form-four .bg-svg {
 /* Optional: Style the first column (labels) differently if desired */
 .form-four table.unstriped td:first-child {
   font-weight: bold; /* Make labels stand out */
+}
+
+.whatsapp-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #25d366; // WhatsApp green
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken(#25d366, 10%);
+    color: white;
+  }
 }
 
 @media screen and (min-width: 640px){

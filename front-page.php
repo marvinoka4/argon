@@ -8,6 +8,8 @@
 
     <?php get_template_part('parts/content/summary-about-us'); ?>
 
+    <?php get_template_part('parts/form/contact-form'); ?>
+
     <?php get_template_part('parts/content/testimonial-scroll'); ?>
 
 </main>
