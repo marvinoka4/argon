@@ -9853,6 +9853,7 @@
       "oF" : 0,
       "oS" : 1,
       "pg" : 0
+<<<<<<< Updated upstream
     },
     "\/assets\/styles\/scss\/modules\/_swiper.scss" : {
       "aP" : 0,
@@ -9866,6 +9867,8 @@
       "oF" : 0,
       "oS" : 1,
       "pg" : 0
+=======
+>>>>>>> Stashed changes
     },
     "\/comments.php" : {
       "cB" : 0,
