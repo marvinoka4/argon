@@ -11773,7 +11773,7 @@ FOOTER STYLES
 }
 .icon-nav-item .icon-nav-link {
   color: #8F96B3;
-  font-size: 0.7608695652rem;
+  font-size: 0.652173913rem;
 }
 
 .icon-nav-link {
@@ -11785,9 +11785,9 @@ FOOTER STYLES
 
 .nav-item .nav-link {
   color: #02066F;
-  font-size: 0.7608695652rem;
+  font-size: 0.652173913rem;
   text-transform: uppercase;
-  line-height: 1.1;
+  letter-spacing: 1px;
 }
 
 .nav-link {
@@ -11795,24 +11795,21 @@ FOOTER STYLES
 }
 .nav-link:hover {
   color: #8F96B3;
-  transition: 0.3s width ease;
-  border-bottom: 2px solid #8F96B3;
 }
 
 .nav-link a {
-  padding: 0.15rem 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 .nav-link[aria-current=page] {
   background: transparent;
   color: #8F96B3;
-  transition: 0.3s width ease;
-  border-bottom: 2px solid #8F96B3;
 }
 
 .nav-cta {
   border-radius: 2px;
   font-size: 0.652173913rem;
+  font-family: "Obadiah-Bold", Obadiah, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -11821,8 +11818,7 @@ FOOTER STYLES
 }
 
 .dropdown.menu > li > a {
-  padding: 0.15rem 0.5rem;
-  margin: 0 0.25rem;
+  padding: 0.5rem 1rem;
   color: #02066F;
 }
 

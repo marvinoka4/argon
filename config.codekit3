@@ -9171,6 +9171,7 @@
       "q" : 100,
       "rq" : 75
     },
+<<<<<<< HEAD
     "\/assets\/images\/uploads\/contact-us.jpg" : {
       "ft" : 16384,
       "iS" : 27613,
@@ -9210,6 +9211,8 @@
       "q" : 100,
       "rq" : 75
     },
+=======
+>>>>>>> parent of 5cc22d0 (update build)
     "\/assets\/images\/uploads\/hero-1.jpg" : {
       "ft" : 16384,
       "iS" : 163250,
@@ -10306,14 +10309,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/content\/content-page-sidebar.php",
-      "oF" : 0
-    },
-    "\/parts\/content\/demo-intro.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/parts\/content\/demo-intro.php",
       "oF" : 0
     },
     "\/parts\/content\/demo-section1-content.php" : {
