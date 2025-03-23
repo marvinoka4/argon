@@ -48,17 +48,16 @@
 // 1. Global
 // ---------
 
-$global-font-size: 1.15rem;
+$global-font-size: 1rem;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-        primary: #02066F,
-        secondary: #8F96B3,
+        primary: #000540,
+        secondary: #f18139,
         success: #2ecc71,
         light-success: #e1faea,
         warning: #e74c3c,
         light-warning: #f7e4e1,
-        gold: #efbf04,
         alert: #3498db,
         custom: #ccc,
         light-grey: #f3f3f9,
@@ -70,7 +69,7 @@ $foundation-palette: (
 
 $body-background: white;
 $body-font-color: get-color(dark-grey);
-$body-font-family: 'Munika-Medium', Munika, Arial, sans-serif;
+$body-font-family: 'Gilroy-Medium', Gilroy, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -132,27 +131,21 @@ $block-grid-max: 8;
 // ------------------
 
 @font-face {
-  font-family: 'Munika-Bold';
-  src: url('../../fonts/Munika-Bold.woff2') format('woff2'),
-  url('../../fonts/Munika-Bold.woff') format('woff');
+  font-family: 'Gilroy-Bold';
+  src: url('../../fonts/gilroybold-webfont.woff2') format('woff2'),
+  url('../../fonts/gilroybold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Munika-Semibold';
-  src: url('../../fonts/Munika-Semibold.woff2') format('woff2'),
-  url('../../fonts/Munika-Semibold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Munika-Medium';
-  src: url('../../fonts/Munika-Medium.woff2') format('woff2'),
-  url('../../fonts/Munika-Medium.woff') format('woff');
+  font-family: 'Gilroy-Medium';
+  src: url('../../fonts/gilroymedium-webfont.woff2') format('woff2'),
+  url('../../fonts/gilroymedium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
+<<<<<<< HEAD
   font-family: 'Munika-Regular';
   src: url('../../fonts/Munika-Regular.woff2') format('woff2'),
   url('../../fonts/Munika-Regular.woff') format('woff');
@@ -198,6 +191,11 @@ $block-grid-max: 8;
   font-family: 'KindSans-Regular';
   src: url('../../fonts/KindSans-Regular.woff2') format('woff2'),
   url('../../fonts/KindSans-Regular.woff') format('woff');
+=======
+  font-family: 'Gilroy-Regular';
+  src: url('../../fonts/gilroyregular-webfont.woff2') format('woff2'),
+  url('../../fonts/gilroyregular-webfont.woff') format('woff');
+>>>>>>> parent of fb4b720 (site-build)
   font-weight: normal;
   font-style: normal;
 }
@@ -216,7 +214,7 @@ $block-grid-max: 8;
   font-display: block;
 }
 
-$header-font-family: 'KindSans-Bold', KidSans, Roboto, Arial, sans-serif;
+$header-font-family: 'Gilroy-Bold', Gilroy, Roboto, Arial, sans-serif;
 $header-font-weight: bold;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -225,7 +223,7 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
         small: (
-                'h1': ('font-size': 40),
+                'h1': ('font-size': 35),
                 'h2': ('font-size': 30),
                 'h3': ('font-size': 25),
                 'h4': ('font-size': 20),
@@ -233,7 +231,7 @@ $header-styles: (
                 'h6': ('font-size': 15),
         ),
         medium: (
-                'h1': ('font-size': 60),
+                'h1': ('font-size': 40),
                 'h2': ('font-size': 35),
                 'h3': ('font-size': 30),
                 'h4': ('font-size': 20),

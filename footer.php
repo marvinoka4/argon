@@ -12,6 +12,7 @@
 <footer class="footer text-white" role="contentinfo">
 
   <div class="grid-container">
+<<<<<<< HEAD
     <div class="inner-footer grid-x grid-margin-x grid-margin-y text-center align-center-middle padding-vertical-4">
 
       <div class="cell large-12 medium-12 small-12 padding-bottom-2 align-center text-center">
@@ -48,6 +49,32 @@
       </div>
 
 
+=======
+    <div class="inner-footer grid-x grid-margin-x grid-margin-y text-center large-text-left">
+      <div class="small-12 medium-4 large-4 cell">
+        <h4 class="mb20">Footer Column 1</h4>
+        <p>Some text</p>
+      </div>
+
+      <div class="small-12 medium-4 large-4 cell">
+        <h4 class="mb20">Footer Column 2</h4>
+          <p>Some text</p>
+      </div>
+      <div class="small-12 medium-4 large-4 cell">
+        <h4 class="mb20">Footer Column 3</h4>
+          <p>Some text</p>
+      </div>
+
+    <div class="small-12 medium-12 large-12 cell text-center">
+        <p class="text-small">Copyright <?php echo date('Y'); ?>. All Rights Reserved. </p>
+        <p class="text-small">
+            Built for
+            <a href="https://marvinoka4.com/?utm_source=<?php echo site_url(); ?>&amp;utm_medium=website-credit&amp;utm_campaign=referral" target="_blank" title="Structured Growth">
+                <img width="20" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fa/caret-square-o-up.svg" alt="Structured Growth"></a>
+            by <a href="https://marvinoka4.com/?utm_source=<?php echo site_url(); ?>&amp;utm_medium=website-credit&amp;utm_campaign=referral" target="_blank" title="Marvin Okafor">DragonLord</a>
+        </p>
+    </div>
+>>>>>>> parent of fb4b720 (site-build)
     </div>
   </div>
 

@@ -7,7 +7,11 @@
       "uuidString" : "F5DAB568-1969-4476-B67F-E023B43D0E4B"
     }
   ],
+<<<<<<< HEAD
   "creatorBuild" : "34689",
+=======
+  "creatorBuild" : "34510",
+>>>>>>> parent of fb4b720 (site-build)
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -155,6 +159,54 @@
       "oAP" : "\/assets\/fonts\/gform-icons-theme.woff2",
       "oF" : 0
     },
+    "\/assets\/fonts\/gilroybold-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/gilroybold-webfont.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/gilroybold-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/gilroybold-webfont.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/gilroymedium-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/gilroymedium-webfont.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/gilroymedium-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/gilroymedium-webfont.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/gilroyregular-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/gilroyregular-webfont.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/gilroyregular-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/gilroyregular-webfont.woff2",
+      "oF" : 0
+    },
     "\/assets\/fonts\/glyphicons-halflings-regular.eot" : {
       "cB" : 0,
       "ft" : 8192,
@@ -197,6 +249,7 @@
       "oAP" : "\/assets\/fonts\/glyphicons-halflings-regular.woff2",
       "oF" : 0
     },
+<<<<<<< HEAD
     "\/assets\/fonts\/KindSans-Black.woff" : {
       "cB" : 0,
       "ft" : 8192,
@@ -293,6 +346,8 @@
       "oAP" : "\/assets\/fonts\/KindSans-Semibold.woff2",
       "oF" : 0
     },
+=======
+>>>>>>> parent of fb4b720 (site-build)
     "\/assets\/fonts\/lg.eot" : {
       "cB" : 0,
       "ft" : 8192,
@@ -333,70 +388,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/fonts\/lg.woff2",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/Munika-Bold.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/Munika-Bold.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/Munika-Bold.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/Munika-Bold.woff2",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/Munika-Medium.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/Munika-Medium.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/Munika-Medium.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/Munika-Medium.woff2",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/Munika-Regular.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/Munika-Regular.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/Munika-Regular.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/Munika-Regular.woff2",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/Munika-Semibold.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/Munika-Semibold.woff",
-      "oF" : 0
-    },
-    "\/assets\/fonts\/Munika-Semibold.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/fonts\/Munika-Semibold.woff2",
       "oF" : 0
     },
     "\/assets\/fonts\/unicons\/selection.json" : {
@@ -8293,11 +8284,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/images\/favicon_io\/android-chrome-192x192.png" : {
+    "\/assets\/images\/favicon\/android-chrome-192x192.png" : {
       "ft" : 32768,
-      "iS" : 11557,
+      "iS" : 11079,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon_io\/android-chrome-192x192.png",
+      "oAP" : "\/assets\/images\/favicon\/android-chrome-192x192.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8306,11 +8297,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/images\/favicon_io\/android-chrome-512x512.png" : {
+    "\/assets\/images\/favicon\/android-chrome-512x512.png" : {
       "ft" : 32768,
-      "iS" : 35262,
+      "iS" : 45686,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon_io\/android-chrome-512x512.png",
+      "oAP" : "\/assets\/images\/favicon\/android-chrome-512x512.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8319,11 +8310,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/images\/favicon_io\/apple-touch-icon.png" : {
+    "\/assets\/images\/favicon\/apple-touch-icon.png" : {
       "ft" : 32768,
-      "iS" : 10436,
+      "iS" : 9870,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon_io\/apple-touch-icon.png",
+      "oAP" : "\/assets\/images\/favicon\/apple-touch-icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8332,46 +8323,54 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/images\/favicon_io\/favicon-16x16.png" : {
-      "ft" : 32768,
-      "iS" : 680,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon_io\/favicon-16x16.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/images\/favicon_io\/favicon-32x32.png" : {
-      "ft" : 32768,
-      "iS" : 1376,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon_io\/favicon-32x32.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/assets\/images\/favicon_io\/favicon.ico" : {
+    "\/assets\/images\/favicon\/browserconfig.xml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon_io\/favicon.ico",
+      "oAP" : "\/assets\/images\/favicon\/browserconfig.xml",
       "oF" : 0
     },
-    "\/assets\/images\/favicon_io\/site.webmanifest" : {
+    "\/assets\/images\/favicon\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 400,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicon\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicon\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 894,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicon\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicon\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/favicon_io\/site.webmanifest",
+      "oAP" : "\/assets\/images\/favicon\/favicon.ico",
+      "oF" : 0
+    },
+    "\/assets\/images\/favicon\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicon\/site.webmanifest",
       "oF" : 0
     },
     "\/assets\/images\/google-reviews.svg" : {
@@ -8384,6 +8383,7 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+<<<<<<< HEAD
     "\/assets\/images\/scroll\/ic1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -9369,6 +9369,8 @@
       "q" : 100,
       "rq" : 75
     },
+=======
+>>>>>>> parent of fb4b720 (site-build)
     "\/assets\/images\/util\/blank.gif" : {
       "ft" : 4194304,
       "iS" : 1177,
@@ -9435,6 +9437,7 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+<<<<<<< HEAD
     "\/assets\/images\/util\/site_logo_.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -9475,6 +9478,8 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+=======
+>>>>>>> parent of fb4b720 (site-build)
     "\/assets\/images\/util\/star.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -9490,26 +9495,6 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/assets\/images\/util\/tick.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/images\/util\/vector-9.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/images\/util\/vector-9.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/images\/util\/vector-10.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/images\/util\/vector-10.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -9627,233 +9612,269 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/styles\/css\/app.css",
       "oF" : 2,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/global\/_helperLayout.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/global\/_helperLayout.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/global\/_helperType.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/global\/_helperType.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/global\/_settings.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/global\/_settings.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/global\/_theme.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/global\/_theme.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_footer.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_header.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/layout\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_hero.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/layout\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_navigation.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/layout\/_sidebar.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/layout\/_sidebar.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/modules\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_forms.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/modules\/_hamburger-settings.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_hamburger-settings.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/modules\/_icons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_icons.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/modules\/_lg-theme.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_lg-theme.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/modules\/_lightgallery.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_lightgallery.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/modules\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_mixins.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/modules\/_motion.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_motion.css",
       "oF" : 0,
-      "oS" : 1,
-      "pg" : 0
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/assets\/styles\/scss\/modules\/_scroll-cue.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
+      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/assets\/styles\/scss\/modules\/_scroll-cue.css",
       "oF" : 0,
+<<<<<<< HEAD
       "oS" : 1,
       "pg" : 0
 <<<<<<< Updated upstream
@@ -9872,6 +9893,11 @@
       "pg" : 0
 =======
 >>>>>>> Stashed changes
+=======
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+>>>>>>> parent of fb4b720 (site-build)
     },
     "\/comments.php" : {
       "cB" : 0,
@@ -10215,6 +10241,7 @@
       "oO" : 1,
       "oS" : 1
     },
+<<<<<<< HEAD
     "\/page-templates\/about.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10231,6 +10258,8 @@
       "oAP" : "\/page-templates\/contact.php",
       "oF" : 0
     },
+=======
+>>>>>>> parent of fb4b720 (site-build)
     "\/page-templates\/demo.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10279,12 +10308,20 @@
       "oAP" : "\/page.php",
       "oF" : 0
     },
+<<<<<<< HEAD
     "\/parts\/content\/about-intro.php" : {
+=======
+    "\/parts\/content\/contact-form.php" : {
+>>>>>>> parent of fb4b720 (site-build)
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
+<<<<<<< HEAD
       "oAP" : "\/parts\/content\/about-intro.php",
+=======
+      "oAP" : "\/parts\/content\/contact-form.php",
+>>>>>>> parent of fb4b720 (site-build)
       "oF" : 0
     },
     "\/parts\/content\/content-byline.php" : {
@@ -10317,14 +10354,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/content\/demo-section1-content.php",
-      "oF" : 0
-    },
-    "\/parts\/content\/feature-scroll.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/parts\/content\/feature-scroll.php",
       "oF" : 0
     },
     "\/parts\/content\/get-in-touch.php" : {
@@ -10391,6 +10420,7 @@
       "oAP" : "\/parts\/content\/summary-practice-areas.php",
       "oF" : 0
     },
+<<<<<<< HEAD
     "\/parts\/content\/testimonial-scroll.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10439,6 +10469,8 @@
       "oAP" : "\/parts\/form\/specialist-lending-form.php",
       "oF" : 0
     },
+=======
+>>>>>>> parent of fb4b720 (site-build)
     "\/parts\/header\/home-page-header.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10453,14 +10485,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/parts\/header\/page-header.php",
-      "oF" : 0
-    },
-    "\/parts\/header\/page-hero.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/parts\/header\/page-hero.php",
       "oF" : 0
     },
     "\/parts\/loop\/loop-page.php" : {
@@ -10580,9 +10604,9 @@
   },
   "projectAttributes" : {
     "creationDate" : 576149231.35316896,
-    "displayValue" : "AKM",
+    "displayValue" : "ARGON",
     "displayValueWasSetByUser" : 1,
-    "iconImageName" : "\/assets\/images\/favicon_io\/apple-touch-icon.png",
+    "iconImageName" : "\/assets\/images\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -11081,6 +11105,10 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
+      "line-comment-position" : {
+        "active" : 0,
+        "optionString" : "{'position': 'above'}"
+      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -11132,6 +11160,10 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
+      },
+      "multiline-comment-style" : {
+        "active" : 0,
+        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -11274,8 +11306,7 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1,
-        "optionString" : "{'enforceForInnerExpressions': false}"
+        "active" : 1
       },
       "no-extra-label" : {
         "active" : 0
@@ -11360,8 +11391,7 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 1,
-        "optionString" : "{'allowEscape': false}"
+        "active" : 1
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -11401,6 +11431,9 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
+      "no-new-object" : {
+        "active" : 0
+      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -11412,9 +11445,6 @@
       },
       "no-obj-calls" : {
         "active" : 1
-      },
-      "no-object-constructor" : {
-        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -11469,6 +11499,9 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
+      },
+      "no-return-await" : {
+        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
@@ -11729,8 +11762,7 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0,
-        "optionString" : "{'requireFlag': 'u'}"
+        "active" : 0
       },
       "require-yield" : {
         "active" : 1
@@ -12021,9 +12053,11 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
+      "compilerType" : 0,
       "cssoStyle" : 0,
+      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -12138,7 +12172,6 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
-    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -12159,7 +12192,6 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,

@@ -24,4 +24,4 @@ for (const element of document.querySelectorAll('.build-in-slide-left-long')) {
 for (const element of document.querySelectorAll('.scale')) {
   animationObserver.observe(element);
 }
-
+ 
